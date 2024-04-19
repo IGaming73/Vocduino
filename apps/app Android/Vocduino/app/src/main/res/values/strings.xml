@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Vocduino</string>
+    <string name="microphone_desc">Microphone icon</string>
+    <string name="settings_desc">Settings icon</string>
+    <string name="about_desc">About icon</string>
+    <string name="settings_general">General settings</string>
+    <string name="settings_bluetooth">Bluetooth settings</string>
+    <string name="settings_recognition">Recognition settings</string>
+</resources>

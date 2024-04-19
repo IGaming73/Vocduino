@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_desc">Icône des paramètres</string>
+    <string name="microphone_desc">Icône du microphone</string>
+    <string name="about_desc">Icône à propos</string>
+    <string name="settings_general">Paramètres généraux</string>
+    <string name="settings_bluetooth">Paramètres Bluetooth</string>
+    <string name="settings_recognition">Paramètres de reconnaissance</string>
+</resources>

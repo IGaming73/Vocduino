@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog_firmware</class>
+ <widget class="QDialog" name="Dialog_firmware">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>580</width>
+    <height>659</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Modifier firmware Arduino</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>icons/cloud upload.png</normaloff>icons/cloud upload.png</iconset>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout" stretch="0,0,0">
+     <property name="spacing">
+      <number>6</number>
+     </property>
+     <property name="sizeConstraint">
+      <enum>QLayout::SetDefaultConstraint</enum>
+     </property>
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="font">
+        <font>
+         <family>Calibri</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+         <stylestrategy>PreferDefault</stylestrategy>
+        </font>
+       </property>
+       <property name="text">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; text-decoration: underline;&quot;&gt;Si vous utilisez cet outil pour la première fois sur cet ordinateur, suivez d'abord ces étapes :&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;1. Branchez l'Arduino Uno à votre ordinateur à l'aide d'un câble USB.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;2. Reliez les deux broches montrées sur le schéma ci-dessous pendant environ une seconde, la LED jaune devrais clignoter.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;3. Ouvrez le &amp;quot;Gestionnaire de périphériques&amp;quot;, puis allez dans la section &amp;quot;Autres périphériques&amp;quot;. Faites clic droit sur le dernier &amp;quot;Périphérique inconnu&amp;quot;, puis &amp;quot;Mettre à jour le pilote&amp;quot;.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;4. Sélectionnez &amp;quot;Parcourir mon poste de travail pour rechercher des pilotes&amp;quot;, puis &amp;quot;Choisir parmi une liste de pilotes disponibles sur mon ordinateur&amp;quot;. Choisisez &amp;quot;Périphériques Universal Serial Bus&amp;quot;, puis &amp;quot;Périphérique WinUsb&amp;quot; dans le menu de gauche, et ensuite la même option dans le menu de droite. Faites &amp;quot;Suivant&amp;quot;, puis &amp;quot;Oui&amp;quot;.&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; text-decoration: underline;&quot;&gt;Changer le firmware de l'Arduino Uno :&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;img src=&quot;UI/ressources/firmware_pins.png&quot;/&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;Pour changer le firmware de l'Arduino Uno, branchez l'Arduino à l'ordinateur à l'aide d'un câble USB, reliez les deux broches montrées sur l'image ci-dessus pendant environ une seconde, puis cliquez sur le bouton correspondant au firmware que vous souhaitez installer.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="textFormat">
+        <enum>Qt::AutoText</enum>
+       </property>
+       <property name="scaledContents">
+        <bool>false</bool>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignJustify|Qt::AlignTop</set>
+       </property>
+       <property name="wordWrap">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="button_firmware_normal">
+         <property name="text">
+          <string>Arduino Uno normal</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="button_firmware_keyboard">
+         <property name="text">
+          <string>Arduino Uno clavier</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <spacer name="verticalSpacer">
+       <property name="orientation">
+        <enum>Qt::Vertical</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
